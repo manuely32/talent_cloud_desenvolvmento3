@@ -23,7 +23,7 @@ print("1 - Soma")
 print("2 - Subtração")
 print("3 - Multiplicação")
 print("4 - Divisão")
-operacao = input("Informa a operacao que deseja resalizar:")
+operacao = input("Informa a operacao que deseja realizar:")
 
 #Chamada da função calculadora repassando as variáveis
 resposta = calculadora(int(valor1), int(valor2),int(operacao))
