@@ -1,8 +1,8 @@
 #Algoritmo Imprimir numero de Andares de um prédio
 
 #Declaração das variáveis
-quantAndares = 10
-naoImprimirAndar = 2
+quantAndares = 20
+naoImprimirAndar = 13
 
 #Utilizando o for para imprimir os numeros dos andares
 for i in range(1, quantAndares + 1):
