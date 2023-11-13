@@ -12,6 +12,7 @@ while True:
 
         #Verificando se o ano digitado está entre o período permitido.
         if(anoNascimento >= 1922 and anoNascimento <= 2021):
+            #Calculando idade e parando o while
             idade = 2022 - anoNascimento
             print(f"{nome} você tem {idade} anos!")
             break
